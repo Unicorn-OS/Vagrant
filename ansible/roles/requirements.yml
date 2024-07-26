@@ -1,0 +1,6 @@
+---
+roles:
+- name: UniInc.KVM
+- name: UniInc.Detect-Immutable-OS
+- name: UniInc.Vagrant
+- name: UniInc.Vagrant-in-Podman

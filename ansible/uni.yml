@@ -1,0 +1,9 @@
+- hosts: localhost #, node
+  vars:
+    inPodman: false	# ideal if Immutable OS
+  roles:
+#  - UniInc.Detect-Immutable-OS
+  - UniInc.Vagrant
+  # Or
+#  - UniInc.Vagrant-in-Podman
+
